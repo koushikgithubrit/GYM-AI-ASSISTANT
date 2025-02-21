@@ -22,13 +22,15 @@ module.exports = merge(common, {
     filename: "bundle-dev.js",
   },
   devServer: {
-    host: "0.0.0.0", // Allow access from any network
-    port: 8080, // Change if needed
-    allowedHosts: "all", // Fixes "Invalid Host header" error
-    historyApiFallback: true, // Fixes issues with React Router (if used)
-    hot: true, // Enables Hot Module Replacement
+    static: path.resolve(__dirname, "public"), // Serve static files
+    host: "0.0.0.0",
+    port: 8080,
+    allowedHosts: "all",
+    historyApiFallback: true, // Fixes React Router issues
+    hot: true,
     client: {
-      webSocketURL: "auto://0.0.0.0:0/ws" // Fix WebSocket live reload issues
+      webSocketURL: "auto://0.0.0.0:0/ws" // Fixes WebSocket live reload
     }
   }
+  
 });

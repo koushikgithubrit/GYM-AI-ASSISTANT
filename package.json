@@ -17,10 +17,8 @@
   },
   "author": "Moch. Galang Rivaldo",
   "license": "ISC",
-  "bugs": {
-    
-  },
-   "homepage": "",
+  "bugs": {},
+  "homepage": "",
   "devDependencies": {
     "eslint": "^8.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -39,6 +37,7 @@
     "@mediapipe/pose": "^0.5.1635988162",
     "@tensorflow-models/pose-detection": "^2.0.0",
     "@tensorflow/tfjs-backend-webgl": "^4.2.0",
+    "@tensorflow/tfjs-backend-webgpu": "^4.22.0",
     "@tensorflow/tfjs-converter": "^4.2.0",
     "@tensorflow/tfjs-core": "^4.2.0",
     "@tensorflow/tfjs-layers": "^4.2.0"
