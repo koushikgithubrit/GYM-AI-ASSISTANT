@@ -22,7 +22,7 @@ module.exports = merge(common, {
     filename: "bundle-dev.js",
   },
   devServer: {
-    host: "192.168.169.157", // Allow access from any network
+    host: "0.0.0.0", // Allow access from any network
     port: 8080, // Change if needed
     allowedHosts: "all", // Fixes "Invalid Host header" error
     historyApiFallback: true, // Fixes issues with React Router (if used)
