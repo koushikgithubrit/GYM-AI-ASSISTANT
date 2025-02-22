@@ -1,7 +1,7 @@
 {
   "name": "gym-pose-assistant",
   "version": "1.1.0",
-  "description": "",
+  "description": "The Gym Pose Detection Using AI project is designed to revolutionize fitness training by leveraging artificial intelligence (AI) for real-time analysis and correction of exercise form. The project incorporates computer vision and deep learning techniques to detect key body points during various exercises <!-- C:\\Users\\koush\\Documents\\GitHub\\GYM-AI-ASSISTANT\\package.json -->",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,7 +17,6 @@
   },
   "author": "Moch. Galang Rivaldo",
   "license": "ISC",
-  "bugs": {},
   "homepage": "",
   "devDependencies": {
     "eslint": "^8.32.0",
@@ -40,6 +39,13 @@
     "@tensorflow/tfjs-backend-webgpu": "^4.22.0",
     "@tensorflow/tfjs-converter": "^4.2.0",
     "@tensorflow/tfjs-core": "^4.2.0",
-    "@tensorflow/tfjs-layers": "^4.2.0"
-  }
+    "@tensorflow/tfjs-layers": "^4.2.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1"
+  },
+  "keywords": []
 }

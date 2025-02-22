@@ -1,9 +1,3 @@
-/* eslint-disable no-restricted-syntax */
-/* eslint-disable no-underscore-dangle */
-
-// Disclaimer (Modification)
-// Credit: Benson Ruan
-
 export default class WebcamHandler {
   constructor(
     webcamElement,

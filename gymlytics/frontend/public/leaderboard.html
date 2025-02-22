@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Leaderboard - GymLytics</title>
+</head>
+<body>
+    <h2>Leaderboard</h2>
+    <ul id="leaderboard"></ul>
+    <script>
+        async function fetchLeaderboard() {
+            const res = await fetch(`${API_URL}/score/leaderboard`);
+            const scores = await res.json();
+            document.getElementById("leaderboard").innerHTML =
+                scores.map(s => `<li>${s.username}: ${s.score}</li>`).join("");
+        }
+        fetchLeaderboard();
+    </script>
+</body>
+</html>
